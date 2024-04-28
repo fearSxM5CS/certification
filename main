@@ -13,7 +13,6 @@ string[] FillArray()
     string[] workArray = enterSymbols.Split(separators, StringSplitOptions.RemoveEmptyEntries);
     return workArray;
 }
-
 string PrintArray(string[] workArray)
 {
     string stringArray = "[";
